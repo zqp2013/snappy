@@ -39,7 +39,7 @@ endif(NOT CMAKE_CXX_STANDARD)
 
 # BUILD_SHARED_LIBS is a standard CMake variable, but we declare it here to make
 # it prominent in the GUI.
-option(BUILD_SHARED_LIBS "Build shared libraries(DLLs)." OFF)
+option(BUILD_SHARED_LIBS "Build shared libraries(DLLs)." ON)
 
 option(SNAPPY_BUILD_TESTS "Build Snappy's own tests." ON)
 
